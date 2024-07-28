@@ -1,0 +1,1 @@
+tore all tempates for my project
