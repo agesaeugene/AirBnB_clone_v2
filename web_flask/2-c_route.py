@@ -22,10 +22,10 @@ def hbnb():
 @app.route('/c/<text>')
 def c_with_params(text):
     """
-    is_cool
+    Displaying 'C' followed by the value of <text>
     """
     text_no_undersore = text.replace('_', ' ')
-    return "c {}".format(text_no_undersore)
+    return "C {}".format(text_no_undersore)
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
