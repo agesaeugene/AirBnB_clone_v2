@@ -34,7 +34,7 @@ def python_with_text_params(text):
     displaying python is magic
     """
     text_no_underscore = text.replace('_', ' ')
-    return "python{}".format(text_no_underscore)
+    return "Python {}".format(text_no_underscore)
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
